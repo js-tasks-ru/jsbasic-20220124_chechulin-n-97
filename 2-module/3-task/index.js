@@ -1,6 +1,14 @@
 let calculator = {
-  // ваш код
+  read(a, b) {
+    num1 = a;
+    num2 = b;
+  },
+  sum() {
+    return num1 + num2;
+  },
+  mul() {
+    return num1 * num2;
+  }
 };
 
-// НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
-window.calculator = calculator; // делает ваш калькулятор доступным глобально
+window.calculator = calculator;
