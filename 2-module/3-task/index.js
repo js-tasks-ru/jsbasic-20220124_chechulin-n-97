@@ -1,13 +1,13 @@
 let calculator = {
   read(a, b) {
-    num1 = a;
-    num2 = b;
+    this.a = a;
+    this.b = b;
   },
   sum() {
-    return num1 + num2;
+    return this.a + this.b;
   },
   mul() {
-    return num1 * num2;
+    return this.a * this.b;
   }
 };
 
